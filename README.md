@@ -32,10 +32,13 @@ Python 3.7
 
 ## Packages used
 Tensorflow
+
 sklearn
+
 pandas
+
 numpy
+
 matplotlib.pyplot
+
 seaborn
-plotly.express
-streamlit
