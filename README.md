@@ -27,7 +27,7 @@ Possible disease states are "Melanoma", "Melanocytic nevus", "Basal cell carcino
 
 
 ## Installation
-# Python version
+## Python version
 Python 3.7
 
 ## Packages used
