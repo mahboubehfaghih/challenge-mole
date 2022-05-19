@@ -24,3 +24,18 @@ This is a job we received from the company "skinCare". The job entailed that we 
 The dataset provided by the client is here https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
 
 Possible disease states are "Melanoma", "Melanocytic nevus", "Basal cell carcinoma", "Actinic keratosis / Bowen’s disease (intraepithelial carcinoma)", "Benign keratosis (solar lentigo / seborrheic keratosis / lichen planus-like keratosis)", "Dermatofibroma", and "Vascular lesion". Approximately 10,000 images provided for training, 200 for validation, 1500 for test.
+
+
+## Installation
+# Python version
+Python 3.7
+
+## Packages used
+Tensorflow
+sklearn
+pandas
+numpy
+matplotlib.pyplot
+seaborn
+plotly.express
+streamlit
