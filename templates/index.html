@@ -1,0 +1,45 @@
+<!doctype hmtl>
+
+<title>Mole Detection</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/index.css') }}">
+
+<section class="content">
+    <header>
+
+        <h1>Mole Detection</h1>
+        <img src="{{ url_for('static', filename='mole.png') }}" />
+    </header>
+
+    <form id="image_form" action="" enctype="multipart/form-data" method="POST">
+        <div>
+            <p>Upload Packages:</p>
+            <p><input id="upload_button" type="file" name="file"></p>
+            <p><input id="submit_button" type="submit" value="Upload">
+        </div>
+    </form>
+    {% if user_image %}
+    <img src="{{ url_for('static', filename=user_image) }}" alt="User Image">
+    {% endif %}
+
+    {% if classes %}
+    <table>
+        <thead>
+          <tr>
+            <th>Classification</th>
+            <th>Percentage</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for p in predictions %}
+         <tr>
+             <td> {{ classes[loop.index-1] }} </td>
+             <td> {{ p }} </td>
+         </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      {% endif %}
+
+</section>
+
+</html>
