@@ -25,6 +25,11 @@ The dataset provided by the client is here https://www.kaggle.com/kmader/skin-ca
 Possible disease states are "Melanoma", "Melanocytic nevus", "Basal cell carcinoma", "Actinic keratosis / Bowen’s disease (intraepithelial carcinoma)", "Benign keratosis (solar lentigo / seborrheic keratosis / lichen planus-like keratosis)", "Dermatofibroma", and "Vascular lesion". Approximately 10,000 images provided for training, 200 for validation, 1500 for test.
 
 
+
+## Preprocessing:
+We resize the images as the original dimension of images are 450 x 600 x3 which TensorFlow can't handle, so that's why we resize it into 100 x 75.
+
+
 ## Installation
 ## Python version
 Python 3.7
