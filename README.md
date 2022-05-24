@@ -7,7 +7,6 @@
 - Presentation: `25/05/2022 1:30 PM`
 - Challenge: Solo
 
-![AI care!](./assets/ai-care.jpg)
 
 ## Mission objectives
 
