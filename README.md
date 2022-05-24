@@ -30,6 +30,11 @@ I resize the images as the original dimension of images are 450 x 600 x3 which T
 
 ## CNN Model:
 I used the Keras Sequential API, where you have just to add one layer at a time, starting from the input.
+I need to set up a score function, a loss function and an optimisation algorithm.
+Data Augmentation to avoid overfitting problem.
+finally I fit the model.
+
+
 
 ## Installation
 ## Python version
