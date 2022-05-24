@@ -14,8 +14,6 @@ ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 UPLOAD_FOLDER = pathlib.Path(__file__).parent / "static/uploads"
 CLASSES = ['nv', 'bkl', 'mel', 'akiec', 'bcc', 'df', 'vasc']
 
-
-#model = load_model(r"C:\Users\Mahboubeh\Documents\GitHub\content\00.projects\5.deep_learning\model\model.h5")
 model = tf.keras.models.load_model(pathlib.Path(__file__).parent / "model/modelbest.h5")
 
 # Create app & routes
