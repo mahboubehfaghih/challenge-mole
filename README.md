@@ -25,6 +25,17 @@ The dataset provided by the client is here https://www.kaggle.com/kmader/skin-ca
 Possible disease states are "Melanoma", "Melanocytic nevus", "Basal cell carcinoma", "Actinic keratosis / Bowen’s disease (intraepithelial carcinoma)", "Benign keratosis (solar lentigo / seborrheic keratosis / lichen planus-like keratosis)", "Dermatofibroma", and "Vascular lesion". Approximately 10,000 images provided for training, 200 for validation, 1500 for test.
 
 
+## Preprocessing:
+I resize the images as the original dimension of images are 450 x 600 x3 which TensorFlow can't handle, so that's why we resize it into 100 x 75.
+
+## CNN Model:
+I used the Keras Sequential API, where you have just to add one layer at a time, starting from the input.
+I need to set up a score function, a loss function and an optimisation algorithm.
+Data Augmentation to avoid overfitting problem.
+finally I fit the model.
+
+
+
 ## Installation
 ## Python version
 Python 3.7
