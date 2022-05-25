@@ -34,6 +34,13 @@ I need to set up a score function, a loss function and an optimisation algorithm
 Data Augmentation to avoid overfitting problem.
 finally I fit the model.
 
+## Model Evaluation:
+In this step we will check the testing accuracy and validation accuracy of our model, plot confusion matrix!
+
+## Results presentation: Web App
+As mention before the idea is to generate a tool to predict the probability of a malign mole. To do it, I provide Web App.
+
+The web app will have the possibility that a user upload a high quality image of an specific mole. The results will be a prediction about the probability that the given mole be malign in terms of percentage.
 
 
 ## Installation
